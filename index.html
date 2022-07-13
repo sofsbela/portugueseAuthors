@@ -3,16 +3,15 @@
   <head>
     <title>Autores Portugueses</title>
     <link rel="icon" type="image/x-icon" href="/images/book.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="server.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="topnav">
-      <nav >
+      <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="pages/about.html">About</a></li>
+          <li><a href="./quizz.html">Quizz</a></li>
           <li><a href="pages/contacts.html">Contactos</a></li>
         </ul>
       </nav>
@@ -20,68 +19,155 @@
 
     <section id="intro">
       <div class="container">
-          <h1 class="text">Olá!</h1>
-          <p>Aqui vais poder conhecer autores portugueses, as suas obras e algumas curiosidades! Não sabes ao certo por onde começar? Sem problema, conhece o autor indicado para ti carregando aqui!</p>
-          <button>
-            Carrega aqui!
-        </button>
-        </div>
-      <div class="img-container">
-          <img src="images/introImage.jpg" alt="Girl reading" width="400"
-          height="400">
+        <h1 class="text">Olá!</h1>
+        <p>
+          Aqui vais poder conhecer autores portugueses, as suas obras e algumas
+          curiosidades! Não sabes ao certo por onde começar? Sem problema,
+          conhece o autor indicado para ti carregando aqui!
+        </p>
+        <button>Carrega aqui!</button>
       </div>
-      
-  </section>    
-
-    <section class="grid">
-      <div class="author"> 
-        <h2>António Lobo Antunes</h2>
-          <img
-            src="images/loboAntunes.jpg"
-            alt="António Lobo Antunes"
-            width="320"
-            height="250"
-          />
-          <p>
-            <span>Nascimento: <strong>1942</strong> </span><br>
-            <span>Formação: <strong>Psiquiatria</strong> </span><br>
-            <span>Prémios: <strong>Prémio Bottari Lattes Grinzane entre outros</strong> </span><br>
-            <span>Livros: <a href="pages/loboAntunes/loboAntunesBooks.html" target="_blank">Consulte-os aqui</a></span>
-          </p>
-          </div>
-            <div class="author">
-              <h2>José Saramago</h2>
-          <img
-            src="images/Saramago.webp"
-            alt="José Saramago"
-            width="320"
-            height="220"
-          />
-          <p> <span>Nascimento: <strong>1922</strong> </span><br>
-            <span>Formação: <strong>Serralheiro</strong> </span><br>
-            <span>Prémios: <strong>Prémio Camões  entre outros</strong> </span><br>
-            <span>Livros: <a href="pages/saramago/saramagoBooks.html" target="_blank">Consulte-os aqui</a></span>
-          </p>
-      
-            </div>
-            <div class="author">
-              <h2>Margarida Rebelo Pinto</h2>
-          <img
-            src="images/margarida.jpg"
-            alt="Margarida Rebelo Pinto"
-            width="320"
-            height="220"
-          />
-          <p>
-            <span>Nascimento: <strong>1965</strong> </span><br>
-            <span>Formação: <strong>Línguas e Literaturas Modernas</strong> </span><br>
-            <span>Prémios: <strong>Prémio Literário Fnac</strong> </span><br>
-            <span>Livros: <a href="pages/margarida/margaridaBooks.html" target="_blank">Consulte-os aqui</a></span>          </p>
-    </p>
-  </div>
-
-         
+      <div class="img-container">
+        <img
+          src="images/introImage.jpg"
+          alt="Girl reading"
+          width="400"
+          height="400"
+        />
+      </div>
     </section>
 
+    <section class="grid">
+      <div id="loboAntunes" class="author">
+        <h2>António Lobo Antunes</h2>
+        <img
+          src="images/loboAntunes.jpg"
+          alt="António Lobo Antunes"
+          width="320"
+          height="250"
+        />
+        <p>
+          <span>Nascimento: <strong>1942</strong> </span><br />
+          <span>Formação: <strong>Psiquiatria</strong> </span><br />
+          <span
+            >Prémios:
+            <strong>Prémio Bottari Lattes Grinzane entre outros</strong> </span
+          ><br />
+          <span
+            >Livros:
+            <a href="pages/loboAntunes/loboAntunesBooks.html" target="_blank"
+              >Consulte-os aqui</a
+            ></span
+          >
+        </p>
+      </div>
+      <div id="saramago" class="author">
+        <h2>José Saramago</h2>
+        <img
+          src="images/Saramago.webp"
+          alt="José Saramago"
+          width="320"
+          height="220"
+        />
+        <p>
+          <span>Nascimento: <strong>1922</strong> </span><br />
+          <span>Formação: <strong>Serralheiro</strong> </span><br />
+          <span>Prémios: <strong>Prémio Camões entre outros</strong> </span
+          ><br />
+          <span
+            >Livros:
+            <a href="pages/saramago/saramagoBooks.html" target="_blank"
+              >Consulte-os aqui</a
+            ></span
+          >
+        </p>
+      </div>
+      <div id="margarida" class="author">
+        <h2>Margarida Rebelo Pinto</h2>
+        <img
+          src="images/margarida.jpg"
+          alt="Margarida Rebelo Pinto"
+          width="320"
+          height="220"
+        />
+        <p>
+          <span>Nascimento: <strong>1965</strong> </span><br />
+          <span>Formação: <strong>Línguas e Literaturas Modernas</strong> </span
+          ><br />
+          <span>Prémios: <strong>Prémio Literário Fnac</strong> </span><br />
+          <span
+            >Livros:
+            <a href="pages/margarida/margaridaBooks.html"
+              >Consulte-os aqui</a
+            ></span
+          >
+        </p>
+      </div>
+      <div id="hugoMae" class="author">
+        <h2>Valter Hugo Mãe</h2>
+        <img
+          src="images/valter.jpg"
+          alt="Valter Hugo Mãe"
+          width="320"
+          height="220"
+        />
+        <p>
+          <span>Nascimento: <strong>1971</strong> </span><br />
+          <span>Formação: <strong>Direito</strong> </span><br />
+          <span
+            >Prémios:
+            <strong>Prémio Literário José Saramago entre outros</strong> </span
+          ><br />
+          <span
+            >Livros:
+            <a href="pages/valterHugoMae/valterBooks.html"
+              >Consulte-os aqui</a
+            ></span
+          >
+        </p>
+      </div>
+
+      <div id="sophia" class="author">
+        <h2>Sophia de Mello Breyner</h2>
+        <img
+          src="images/sophia.jpg"
+          alt="Sophia de Mello Breyner"
+          width="320"
+          height="220"
+        />
+        <p>
+          <span>Nascimento: <strong>1919</strong> </span><br />
+          <span>Formação: <strong>Filologia Clássica</strong> </span><br />
+          <span>Prémios: <strong>Prémio Camões entre outros</strong> </span
+          ><br />
+          <span
+            >Livros:
+            <a href="pages/sophia/sophiaBooks.html">Consulte-os aqui</a></span
+          >
+        </p>
+      </div>
+
+      <div id="agustina" class="author">
+        <h2>Agustina Bessa-Luís</h2>
+        <img
+          src="images/agustina.webp"
+          alt="Agustina Bessa-Luís"
+          width="320"
+          height="220"
+        />
+        <p>
+          <span>Nascimento: <strong>1922</strong> </span><br />
+          <span>Formação: <strong>Jornalismo</strong> </span><br />
+          <span
+            >Prémios: <strong>Prémio Eça de Queirós entre outros</strong> </span
+          ><br />
+          <span
+            >Livros:
+            <a href="pages/sophia/sophiaBooks.html">Consulte-os aqui</a></span
+          >
+        </p>
+      </div>
+    </section>
+    <script src="server.js"></script>
   </body>
 </html>
