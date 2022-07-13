@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&family=Roboto:wght@300;400;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  background: rgb(252, 244, 211);
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-weight: 400;
+}
+
+p {
+  font-size: 14px;
+}
+
+nav {
+  height: 10vh;
+  padding-top: 20px;
+}
+
+nav ul {
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: rgb(167, 156, 6);
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+
+nav ul li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+#intro {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+}
+
+#intro .container {
+  padding: 100px 100px;
+  align-items: center;
+}
+#intro .container p {
+  margin: 6vh 0;
+}
+
+#intro .img-container {
+  margin: 50px 100px;
+  border-radius: 100px;
+}
+
+#intro .img-container img {
+  border-radius: 10px;
+  background-color: red;
+  transform: rotate(5deg);
+}
+
+#intro .container button {
+  transition-duration: 0.4s;
+  width: 25vh;
+  height: 8vh;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgb(167, 156, 6);
+  border-radius: 8px;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+#intro .container button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(167, 156, 6);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid .author {
+  background-color: rgb(201, 190, 128);
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.grid .author img {
+  border-radius: 20px;
+}
